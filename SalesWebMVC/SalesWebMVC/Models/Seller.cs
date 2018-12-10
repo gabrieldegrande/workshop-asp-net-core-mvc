@@ -17,7 +17,7 @@ namespace SalesWebMVC.Models
         [EmailAddress(ErrorMessage = "Enter a valid email")]
         [DataType(DataType.EmailAddress)]
         public string Email { get; set; }
-
+        
         [Required(ErrorMessage = "{0} required!")]
         [Display(Name = "Birth Date")]
         [DataType(DataType.Date)]
